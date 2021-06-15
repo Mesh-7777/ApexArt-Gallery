@@ -1,0 +1,75 @@
+
+ .navigation {
+    position: relative;
+    top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    width: 20%;
+    height: 20%;
+    padding: 1%;
+    background-color: #000000;
+    box-shadow: -2px 2px 8px #383838;
+ }
+
+ i{
+    margin: 0 20px;
+    color: #ffffff;
+    padding: 5%;
+    width: auto;
+ }
+
+ @media only screen and (max-width: 992px) {
+   .nav-link:first-child{
+      padding: 10px;
+   }
+    .nav-link:first-child::after {
+       content: 'Home';
+       color: #ffffff;
+       position: relative;
+       padding: 0px 20px;
+       font-weight: 600;
+       letter-spacing: 2px;
+    }
+
+    .nav-link:nth-child(2)::after {
+       content: 'Profile';
+       color: #ffffff;
+       position: relative;
+       bottom: 5px;
+       padding: 5px;
+       font-weight: 600;
+       letter-spacing: 2px;
+    }
+ }
+
+ @media only screen and (max-width: 874px) {
+    .navigation {
+       width: 148px;
+    }
+
+    .nav-link:first-child::after {
+       content: 'Home';
+       color: #ffffff;
+       display: block;
+       position: relative;
+       top: 3px;
+       left: 12px;
+       padding: 5px;
+       font-weight: 600;
+       letter-spacing: 2px;
+    }
+
+    .nav-link:nth-child(2)::after {
+       content: 'Profile';
+       color: #ffffff;
+       display: block;
+       position: relative;
+       top: 3px;
+       left: 12px;
+       padding: 5px;
+       font-weight: 600;
+       letter-spacing: 2px;
+    }
+ }

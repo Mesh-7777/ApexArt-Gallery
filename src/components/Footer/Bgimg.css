@@ -1,0 +1,12 @@
+.container{
+	max-width: 100%;
+	background-color: #a9a9a9;
+	display: contents;
+}
+.parallax{
+	background-image: url(../images/bgimg1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 550px;
+	transition: 5ms ease-in;
+}

@@ -1,0 +1,32 @@
+.addpaintingform{
+    justify-content:center;
+    align-content: center;
+    padding: 40px;
+    height: 500px;
+    width: 700px;
+    box-shadow: 8px 8px 18px gray;
+    border-radius: 10px ;
+  }
+
+@media (min-width: 480px) {
+    .addpainting {
+      display: flex;
+      justify-content: space-around;
+      padding: 60px 0;
+    }
+  
+    .addpaintingform{
+      justify-content:center;
+      align-content: center;
+      padding: 40px;
+      height: 500px;
+      margin: 0px;
+      width: 700px;
+      box-shadow: 8px 8px 18px #000000;
+      background-color: white;
+      border-radius: 10px ;
+    }
+  
+
+  }
+  

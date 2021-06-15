@@ -1,0 +1,28 @@
+.cartcontainer{
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+}
+
+.item1{
+    order: 1;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+
+.item1 .card{
+    height: 500px;
+    max-width: 600px;
+    margin-bottom: 50px;
+}
+.item1 .card img{
+    height: 270px;
+    width: auto;
+}
+.item2{
+    order: 2;
+    padding: 20px;
+    max-width: 500px;
+    height: 500px;
+}

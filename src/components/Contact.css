@@ -1,0 +1,205 @@
+#contact {
+  background-color: antiquewhite;
+  height: 765px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+#container {
+  width: 710px;
+  height: 630px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  /* background-color: black; */
+}
+
+h2 {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 800;
+  height: 80px;
+  width: 100%;
+  padding: 40px;
+  text-decoration: underline;
+}
+
+#form {
+  display: flex;
+  height: 700px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  position: relative;
+  margin: 1em;
+  width: calc(50% - 2em);
+  height: 80px;
+}
+
+.message {
+  width: calc(100% - 2em);
+  height: 200px;
+}
+
+textarea {
+  border: none;
+  resize: none;
+}
+
+.input__field {
+  position: absolute;
+  margin: 0.8em 0;
+  padding: 0.4em;
+  width: 100%;
+  height: calc(100% - 1.6em);
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  color: #ffcc00;
+  font-size: 1.55em;
+  font-weight: bold;
+  -webkit-appearance: none;
+  /* for box shadows to show on iOS */
+}
+
+.input__field:focus {
+  outline: none;
+}
+
+.input__label {
+  position: absolute;
+  padding: 0 1em;
+  margin: 1.2em 0;
+  width: 100%;
+  height: calc(100% - 2.4em);
+  color: #000;
+  font-weight: bold;
+  font-size: 70.25%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.input__label-content {
+  position: relative;
+  bottom: 45px;
+  right: 10px;
+  font-size: 14px;
+  display: block;
+  padding: 1.5em 0;
+  width: 100%;
+  /* -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s; */
+}
+
+.input__label::before,
+.input__label:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #6a7989;
+  /* -webkit-transition: -webkit-transform 0.3s; */
+  /* transition: transform 0.3s; */
+}
+
+.input__label::before {
+  top: 0;
+}
+
+.input__label::after {
+  bottom: 0;
+}
+
+/* .input__field:focus+.input__label .input__label-content,
+.input--filled .input__label-content {
+  /* -webkit-transform: translate3d(0, -90%, 0);
+  transform: translate3d(0, -90%, 0); 
+}
+
+/* .input__field:focus+.input__label::before,
+.input--filled .input__label::before {
+  /* -webkit-transform: translate3d(0, -0.5em, 0);
+  transform: translate3d(0, -0.5em, 0); 
+}
+
+/* .input__field:focus+.input__label::after,
+.input--filled .input__label::after {
+  /* -webkit-transform: translate3d(0, 0.5em, 0);
+  transform: translate3d(0, 0.5em, 0); 
+}*/
+
+#send-button {
+  width: 200px;
+  height: 60px;
+  background-color: #6a7989;
+  color: #000;
+  border: 0;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  /* -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s; */
+}
+
+#send-button:hover
+
+/* #send-button:focus { */ {
+  outline: 0;
+  background-color: #ffcc00;
+  color: #000;
+  /* -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s; */
+}
+
+@media only screen and (max-width: 750px) {
+  #contact {
+    width: auto;
+  }
+
+  #container {
+    width: 98%;
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #contact {
+    width: auto;
+  }
+
+  #container {
+    width: 80%;
+     
+    left: 26em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #contact {
+    width: auto;
+    height: 50%;
+  }
+
+  .input {
+    width: 87%;
+    height: 70px;
+  }
+
+  #container {
+    width: 68%;
+  }
+}

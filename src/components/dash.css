@@ -1,0 +1,20 @@
+.nav-dash {
+  position: relative;
+  top: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  float: right;
+  width: 30%;
+  padding: 1%;
+  background-color: #000000;
+  box-shadow: -2px 2px 8px #383838;
+}
+
+.nav-dash i {
+  margin: 0 20px;
+  color: #ffffff;
+  padding: 5%;
+  width: auto;
+}
+

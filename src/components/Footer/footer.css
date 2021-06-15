@@ -1,0 +1,120 @@
+ #footer {
+     display: flex;
+     background-color: black;
+     color: #fff;
+     width: auto;
+     justify-content: center;
+     align-items: center;
+     height: 450px;
+     padding: 20px;
+ }
+
+ .section {
+     padding: 10px;
+     width: 33%;
+     height: 355px;
+     text-align: center;
+     list-style: none;
+ }
+
+ .section1 {
+     padding: 40px;
+ }
+
+ .section2 {
+     padding: 40px;
+ }
+
+ .section li {
+     list-style: none;
+ }
+
+ .section3 p {
+     font-size: 13px;
+     padding: 50px;
+ }
+
+ .vl {
+     width: 2px;
+     background-color: #555555;
+     border-radius: 50%;
+     height: 290px;
+ }
+
+ @media only screen and (max-width: 1093px) {
+     .section1 {
+         padding: 10px;
+     }
+
+     .section2 {
+         padding: 10px;
+     }
+
+     .section3 p {
+         padding: 10px;
+     }
+ }
+
+ @media only screen and (max-width: 950px) {
+     #footer {
+         padding: 2px;
+     }
+
+     .section1 {
+         padding: 2px;
+     }
+
+     .section ul {
+         padding-left: 0px;
+     }
+
+     .section2 {
+         padding: 2px;
+     }
+
+     .section3 p {
+         padding: 2px;
+     }
+ }
+
+ @media only screen and (max-width: 720px) {
+     #footer {
+         padding: 30px;
+         display: block;
+         height: 657px;
+         width: auto;
+     }
+
+     .section ul li {
+         display: inline;
+         padding-right: 50px;
+     }
+
+     .section {
+         padding: 20px;
+         width: auto;
+         height: 13em;
+     }
+
+     .vl {
+         width: 95%;
+         height: 2px;
+         background-color: #555555;
+         border-radius: 50%;
+     }
+ }
+
+ @media only screen and (max-width: 490px) {
+     .section {
+         height: 10em;
+         padding: 2px;
+     }
+
+     .section1 {
+         height: 10em;
+     }
+
+     .section2 {
+         height: 12em;
+     }
+ }

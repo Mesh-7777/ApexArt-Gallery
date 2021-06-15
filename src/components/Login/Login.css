@@ -1,0 +1,44 @@
+
+
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .login-form{
+    background-color: #e5f3ff;
+    justify-content:center;
+    align-content: center;
+    padding: 40px;
+    height: 330px;
+    box-shadow: 8px 8px 8px rgb(0, 0, 0);
+    border-radius: 10px ;
+    animation: opa 2s;
+    }
+  
+    @keyframes opa {
+      from{
+          opacity: 0.1;
+      }
+      to {
+          opacity: 1;
+      }
+      
+  }
+
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  input.error {
+    border-color: rgb(235, 54, 54);
+  }
+
+  .input-feedback {
+    color: rgb(235, 54, 54);
+    margin: 6px;
+    font-size: 14px;
+    
+  }
+}

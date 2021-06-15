@@ -1,0 +1,47 @@
+.about {
+    align-items: center;
+    /* background-color: black; */
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: antiquewhite;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.about p {
+    padding: 80px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media only screen and (max-width: 930px) {
+    .about p {
+        padding: 85px;
+
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .about {
+        width: auto;
+
+    }
+
+    .about p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
